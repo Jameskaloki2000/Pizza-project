@@ -20,7 +20,7 @@ document.querySelector(".submit-btn").addEventListener("click", function () {
     }
   });
 
-  if ((deliveryCost = 150)) {
+  if ((deliveryCost == 150)) {
     alert("Delivery costs 150 proceed");
     prompt("Please enter a delivery location");
   }
