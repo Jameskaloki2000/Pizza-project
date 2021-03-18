@@ -20,7 +20,7 @@ document.querySelector(".submit-btn").addEventListener("click", function () {
     }
   });
 
-  if ((deliveryCost == 150)) {
+  if ((deliveryCost = 150)) {
     alert("Delivery costs 150 proceed");
     prompt("Please enter a delivery location");
   }
@@ -63,13 +63,13 @@ document.querySelector(".submit-btn").addEventListener("click", function () {
     pizzaCrust = 100;
   }
 
-  if (toppings[0] === "bacon") {
+  if (toppings[0] == "bacon") {
     toppings[0] = 200;
   }
-  if (toppings[1] === "mushroom") {
+  if (toppings[1] == "mushroom") {
     toppings[1] = 150;
   }
-  if (toppings[2] === "chicken") {
+  if (toppings[2] == "chicken") {
     toppings[2] = 100;
   }
   console.log(toppings);
